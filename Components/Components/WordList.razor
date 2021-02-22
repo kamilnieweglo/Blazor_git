@@ -1,0 +1,39 @@
+﻿<!-- Copyright © 2021 Rick Beerendonk -->
+
+<ol>
+  @if (switched)
+  {
+    @foreach (var word in words)
+    {
+      <li>@word.NL - @word.EN</li>
+    }
+  }
+  else
+  {
+    @foreach (var word in words)
+    {
+      <li>@word.EN - @word.NL</li>
+    }
+  }
+</ol>
+
+<button @onclick="SwitchLanguage">Switch languages</button>
+
+@code {
+  private class Word {
+    public string EN { get; set; }
+    public string NL { get; set; }
+  }
+
+  private Word[] words = { 
+    new Word { EN = "one", NL = "een" },
+    new Word { EN = "two", NL = "twee" },
+    new Word { EN = "three", NL = "drie" }
+  };
+
+  private bool switched;
+
+  private void SwitchLanguage() {
+    switched = !switched;
+  }
+}

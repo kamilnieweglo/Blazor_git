@@ -1,0 +1,22 @@
+/*! Copyright © 2020 Rick Beerendonk !*/
+
+header h1 {
+  color: blue;
+}
+
+main {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+main ol {
+  background-color: lightblue;
+}
+
+.progress-almost-done {
+  color: red;
+}
+
+footer #year {
+  font-style: italic;
+}

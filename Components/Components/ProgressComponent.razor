@@ -1,0 +1,24 @@
+﻿<!-- Copyright © 2021 Rick Beerendonk -->
+
+<div id="progress">
+  Progress:
+  <progress max="100" value="@progress"></progress>
+  <button 
+    @onclick="() => progress++"
+    disabled="@(progress >= 100)"
+    class="@(this.progress >= 90 && this.progress < 100 ? "progress-almost-done" : "")"
+  >+1</button>
+  <button 
+    @onclick="ProgressPlusTen" 
+    disabled="@(progress > 90)"
+    class="@(this.progress >= 90 && this.progress < 100 ? "progress-almost-done" : "")"
+  >+10</button>
+</div>
+
+@code {
+  private int progress = 0;
+
+  private void ProgressPlusTen() {
+    this.progress += 10;
+  }
+}

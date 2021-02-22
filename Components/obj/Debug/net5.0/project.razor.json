@@ -1,0 +1,46 @@
+{
+  "FilePath": "c:\\Projects\\Blazor_git\\Components\\Lab_Components.csproj",
+  "Configuration": {
+    "ConfigurationName": "Default",
+    "LanguageVersion": "5.0",
+    "Extensions": []
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 900
+  },
+  "RootNamespace": "Lab_Components",
+  "Documents": [
+    {
+      "FilePath": "c:\\Projects\\Blazor_git\\Components\\Components\\WordList.razor",
+      "TargetPath": "Components\\WordList.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Projects\\Blazor_git\\Components\\App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Projects\\Blazor_git\\Components\\Components\\ProgressComponent.razor",
+      "TargetPath": "Components\\ProgressComponent.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Projects\\Blazor_git\\Components\\Components\\TitleComponent.razor",
+      "TargetPath": "Components\\TitleComponent.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Projects\\Blazor_git\\Components\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "c:\\Projects\\Blazor_git\\Components\\Components\\Copyright.razor",
+      "TargetPath": "Components\\Copyright.razor",
+      "FileKind": "component"
+    }
+  ],
+  "SerializationFormat": "0.2"
+}

@@ -1,0 +1,26 @@
+{
+  "FilePath": "c:\\Projects\\Blazor_git\\DataBinding\\Lab_DataBinding.csproj",
+  "Configuration": {
+    "ConfigurationName": "Default",
+    "LanguageVersion": "5.0",
+    "Extensions": []
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 900
+  },
+  "RootNamespace": "Lab_DataBinding",
+  "Documents": [
+    {
+      "FilePath": "c:\\Projects\\Blazor_git\\DataBinding\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "c:\\Projects\\Blazor_git\\DataBinding\\App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    }
+  ],
+  "SerializationFormat": "0.2"
+}

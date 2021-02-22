@@ -1,0 +1,26 @@
+{
+  "FilePath": "c:\\Projects\\Blazor_git\\ConditionalAndListRendering\\Lab_ConditionalAndListRendering.csproj",
+  "Configuration": {
+    "ConfigurationName": "Default",
+    "LanguageVersion": "5.0",
+    "Extensions": []
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 900
+  },
+  "RootNamespace": "Lab_ConditionalAndListRendering",
+  "Documents": [
+    {
+      "FilePath": "c:\\Projects\\Blazor_git\\ConditionalAndListRendering\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "c:\\Projects\\Blazor_git\\ConditionalAndListRendering\\App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    }
+  ],
+  "SerializationFormat": "0.2"
+}

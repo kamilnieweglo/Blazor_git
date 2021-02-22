@@ -1,0 +1,48 @@
+﻿<!-- Copyright © 2021 Rick Beerendonk -->
+
+<header>
+  <h1>@fromLanguage - @toLanguage</h1>
+</header>
+
+<main>
+  <section>
+    <ol>
+      <li>@words[0].EN - @words[0].NL</li>
+      <li>@words[1].EN - @words[1].NL</li>
+      <li>@words[2].EN - @words[2].NL</li>
+    </ol>
+  </section>
+
+  <section>
+    Progress:
+    <progress max="100" value="@progress"></progress>
+    <button @onclick="() => progress++" disabled="@(progress >= 100)">+1</button>
+    <button @onclick="ProgressPlusTen" disabled="@(progress > 90)">+10</button>
+  </section>
+
+  <!-- Step 8: Use at-character as text -->
+  <section>I love my@@email.address</section>
+</main>
+
+<footer>Copyright <span id="year">@year</span></footer>
+
+@code {
+  private class Word {
+    public string EN { get; set; }
+    public string NL { get; set; }
+  }
+
+  private string fromLanguage = "English";
+  private string toLanguage = "Nederlands";
+  private Word[] words = { 
+    new Word { EN = "one", NL = "een" },
+    new Word { EN = "two", NL = "twee" },
+    new Word { EN = "three", NL = "drie" }
+  };
+  private int progress = 0;
+  private int year = DateTime.Now.Year;
+
+  private void ProgressPlusTen() {
+    this.progress += 10;
+  }
+}
